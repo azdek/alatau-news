@@ -1,0 +1,33 @@
+@import styles/variables
+
+.footer
+  width: 100%
+  background-color: $c-dark
+  padding: 2rem 0
+
+  &_top
+    display: flex
+    align-items: center
+    justify-content: space-between
+    background-color: darken($c-dark-2, 10%)
+    border-radius: 8px
+    padding: 24px
+    color: $c-light
+    .contact
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      color: $c-light
+      margin-left: 16px
+      &_label
+        display: flex
+        align-items: center
+        gap: 10px
+        margin-bottom: 6px
+        p
+          font-size: 14px
+          font-weight: 400
+          color: $c-dark-5
+      &_value
+        font-size: 16px
+        font-weight: 500

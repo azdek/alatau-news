@@ -1,0 +1,31 @@
+@import styles/variables
+
+.wrapper
+  display: flex
+  flex-direction: column
+  align-items: center
+  .clock
+    position: relative
+    width: 68px
+    height: 70px
+    background: url('/images/clock.svg') center center no-repeat
+    background-size: 100%
+    margin-bottom: 10px
+    .hour,
+    .minute
+      position: absolute
+      border-radius: 10px
+      transform-origin: bottom
+    .hour
+      width: 1.8%
+      height: 25%
+      top: 25%
+      left: 48.85%
+      background: $c-light
+    .minute
+      width: 1.6%
+      height: 30%
+      top: 19%
+      left: 48.9%
+      border-radius: 2px
+      background: $c-error

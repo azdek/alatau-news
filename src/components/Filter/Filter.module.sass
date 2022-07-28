@@ -1,0 +1,32 @@
+@import styles/variables
+
+.wrapper
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 24px 0
+  .list
+    display: flex
+    margin-left: auto
+    li
+      color: $c-dark-3
+      position: relative
+      cursor: pointer
+      transition: all 0.2s
+      letter-spacing: 1
+      margin-left: 28px
+      &:hover
+        color: $c-main
+      &.active
+        color: $c-main
+        // font-weight: 500
+        &::after
+          content: ' '
+          position: absolute
+          width: 8px
+          height: 8px
+          bottom: -8px
+          left: 50%
+          transform: translate(-50%, 2px)
+          background-color: $c-main
+          border-radius: 50%

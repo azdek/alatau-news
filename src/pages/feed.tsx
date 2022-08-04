@@ -3,7 +3,7 @@ import Ribbon from 'components/Ribbon'
 import type { NextPage } from 'next'
 import { Container } from 'react-bootstrap'
 
-const Feed: NextPage = () => {
+const FeedPage: NextPage = () => {
   return (
     <Layout>
       <Container>
@@ -13,4 +13,4 @@ const Feed: NextPage = () => {
   )
 }
 
-export default Feed
+export default FeedPage

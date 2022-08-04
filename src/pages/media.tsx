@@ -4,7 +4,7 @@ import Layout from 'components/Layout'
 import SocialCard from 'components/SocialCard'
 import type { NextPage } from 'next'
 
-const Media: NextPage = () => {
+const MediaPage: NextPage = () => {
   return (
     <Layout>
       <Container className="mb-90 mt-90">
@@ -24,4 +24,4 @@ const Media: NextPage = () => {
   )
 }
 
-export default Media
+export default MediaPage

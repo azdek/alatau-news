@@ -4,7 +4,7 @@ import Article from 'components/Article'
 import Horizontal from 'components/Article/Horizontal'
 import Filter from 'components/Filter'
 
-import classes from './Home.module.sass'
+import classes from './HomeContainer.module.sass'
 import { useGetCatFactsQuery } from 'redux/api/cat.api'
 
 export default function HomeContainer() {

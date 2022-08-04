@@ -1,8 +1,8 @@
 import Layout from 'components/Layout'
-import HomeContainer from 'containers/Home'
+import HomeContainer from 'containers/HomeContainer'
 import type { NextPage } from 'next'
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
     <Layout>
       <HomeContainer />
@@ -10,4 +10,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default HomePage

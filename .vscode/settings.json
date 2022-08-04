@@ -13,5 +13,8 @@
   },
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[sass]": {
+    "editor.defaultFormatter": "syler.sass-indented"
   }
 }

@@ -7,6 +7,7 @@ export default function FeedContainer() {
         <Row>
           <Col>
             <h1>FeedContainer</h1>
+            <h1>FeedContainer</h1>
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,71 @@
+@import styles/variables
+
+.wrapper
+  width: 100wh
+  height: 100vh
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  color: $c-main
+
+  .container
+    width: 100%
+    max-width: 792px
+    min-height: 528px
+    margin-top: 35px
+    padding: 32px
+    display: flex
+    flex-direction: column
+    align-items: center
+    background-color: $c-light
+    border-radius: 16px
+    color: $c-dark
+
+    h1
+      margin-bottom: 8px
+
+    .subtitle
+      max-width: 420px
+      text-align: center
+      font-size: 18px
+      line-height: 26px
+      color: $c-dark-2
+      margin-bottom: 32px
+
+    .input
+      width: 100%
+      max-width: 384px
+      background-color: $c-light-2
+      border: 1px solid transparent
+      padding: 16px 26px
+      border-radius: 56px
+      font-size: 16px
+      line-height: 24px
+      margin-bottom: 24px
+      outline-color: $c-main
+
+    .button
+      width: 100%
+      max-width: 384px
+      border: 1px solid transparent
+      padding: 16px 26px
+      border-radius: 56px
+      font-size: 16px
+      line-height: 24px
+      margin-bottom: 10px
+      font-size: 18px
+      font-weight: 500
+      background-color: $c-main
+      color: $c-light
+      &:disabled
+        background-color: rgba($c-main, 0.15)
+        color: $c-main
+
+    .infotext
+      max-width: 310px
+      text-align: center
+      color: $c-dark-3
+      font-size: 14px
+      strong
+        color: $c-main

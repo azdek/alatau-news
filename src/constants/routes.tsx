@@ -27,6 +27,10 @@ const ROUTES: { [key: string]: IRoute } = {
     href: '/about',
     label: 'О нас',
   },
+  auth: {
+    href: '/auth',
+    label: 'Войти',
+  },
 }
 
 export default ROUTES

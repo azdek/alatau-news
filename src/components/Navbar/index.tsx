@@ -7,6 +7,7 @@ import Socials from './Socials'
 import classes from './Navbar.module.sass'
 import Clock from 'components/Clock'
 import Navigation from './Navigation'
+import Logo from 'components/Logo'
 
 export default function Navbar() {
   return (
@@ -37,7 +38,7 @@ export default function Navbar() {
           <Row className={classes.header_middle}>
             <Col md={6}>
               <div className={classes.logo_clocks}>
-                <img src="/icons/logo.svg" alt="Alatau-News logo" />
+                <Logo />
                 <Clock city="London" offset={-5} />
                 <Clock city="Moscow" offset={-3} />
                 <Clock city="Berlin" offset={-4} />

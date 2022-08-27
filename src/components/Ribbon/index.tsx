@@ -107,7 +107,6 @@ export default function HomeContainer() {
                 <tr>45</tr>
               </div>
             </div>
-
             <div className={classes.middle_grid}>
               <div
                 className={classes.middle_block_1}

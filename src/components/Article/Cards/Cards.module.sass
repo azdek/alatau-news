@@ -1,0 +1,47 @@
+@import styles/variables
+
+.cards
+  display: flex
+  position: relative
+  width: 282px
+  height: 208px
+  // min-height: 334px
+  border-radius: 16px
+  overflow: hidden
+  background-color: $c-light
+  &_bg
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-size: cover
+    z-index: 1
+
+  button
+    background-color: $c-info
+
+  &.horizontal
+    min-height: 150px
+    flex-direction: row
+    .cards
+      &_bg
+        height: calc(100% - 8px)
+        width: calc(38% - 8px)
+        margin: 4px
+        border-radius: 1rem
+      &_body
+        margin-left: 38%
+        width: 60%
+        right: 0
+        color: $c-dark
+
+.cards_body
+  margin-top: 25px
+.cards_title
+  font-style: normal
+  font-weight: 705px
+  font-size: 14px
+  line-height: 20px

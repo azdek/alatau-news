@@ -38,13 +38,6 @@
       grid-area: 3 / 3 / 4 / 5
     &_block__6
       grid-area: 4 / 3 / 5 / 5
-
-.middle_container
-  flex-wrap: wrap
-  img
-    width: 24px
-    height: 24px
-
 .middle_time
   display: flex
   margin-left: 770px
@@ -55,94 +48,6 @@
   font-family: TT Norms
   font-size: 14px
   color: $c-dark-3
-
-.middle__country__usd
-  display: flex
-  align-items: center
-  margin-left: 960px
-  gap: 10px
-  font-family: "TT Norms"
-  color: $c-main
-  p
-    font-family: "TT Norms"
-    font-weight: 700
-    font-size: 18px
-    color: $c-dark
-
-  tr
-    font-family: "TT Norms"
-    font-weight: 700
-    font-size: 18px
-    color: $c-dark-5
-
-.middle__country__rub
-  display: flex
-  margin-left: 780px
-  gap: 10px
-  font-family: "TT Norms"
-  color: $c-main
-
-  p
-    font-family: "TT Norms"
-    font-weight: 700
-    font-size: 18px
-    color: $c-dark
-
-  tr
-    font-family: "TT Norms"
-    font-weight: 700
-    font-size: 18px
-    color: $c-dark-5
-
-.middle__country__london
-  display: flex
-  margin-left: 780px
-  gap: 10px
-  font-family: "TT Norms"
-  color: $c-main
-  margin-top: 15px
-
-  p
-    font-family: "TT Norms"
-    font-weight: 700
-    font-size: 18px
-    color: $c-dark
-
-  tr
-    font-family: "TT Norms"
-    font-weight: 700
-    font-size: 18px
-    color: $c-dark-5
-
-.middle_facebook
-  width: 390px
-  height: 218px
-  margin-left: 405px
-
-// .middle_photo
-//   width: 792px
-//   height: 275px
-//   background: white
-//   margin-left: 405px
-//   margin-top: -29px
-//   border-radius: 30px
-
-.middle_text
-  width: 374px
-  height: 276px
-  border-radius: 16px
-  span
-    color: $c-main
-    margin-left: 350px
-    color: black
-  p
-    margin-left: 350px
-    color: black
-.middle_3
-  width: 384px
-  height: 504px
-  background: $c-dark-2
-  border-radius: 16px
 
 .middle_parent
   display: flex
@@ -159,18 +64,10 @@
   tr
     display: flex
 
-.parent
-  display: grid
-  grid-template-columns: repeat(2, 1fr)
-  grid-template-rows: repeat(5, 1fr)
-  grid-column-gap: 2px
-  grid-row-gap: 0px
-
 .middle_parent_inner
   display: flex
   grid-template-columns: 50px
   padding: 10px
-  // justify-content: end
   gap: 40px
   margin-left: 770px
   p
@@ -181,7 +78,6 @@
 .middle_grid
   display: grid
   grid-template-columns: repeat(5, 1fr)
-  grid-template-rows: repeat(5, 1fr)
   grid-column-gap: 0px
   grid-row-gap: 5px
   margin-top: -210px
@@ -204,3 +100,103 @@
   margin-left: 10px
   width: 390px
   height: 218px
+.media_container
+  margin-top: 50px
+.media
+  display: flex
+  justify-content: space-between
+
+.card
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-column-gap: 0px
+  grid-row-gap: 0px
+  gap: 10px
+
+  &_1
+    grid-area: 1 / 1 / 2 / 2
+  &_2
+    grid-area: 1 / 2 / 2 / 3
+  &_3
+    grid-area: 1 / 3 / 2 / 4
+  &_4
+    grid-area: 1 / 4 / 2 / 5
+  &_5
+    grid-area: 2 / 4 / 3 / 5
+  &_6
+    grid-area: 2 / 1 / 3 / 2
+  &_7
+    grid-area: 2 / 2 / 3 / 3
+  &_8
+    grid-area: 2 / 3 / 3 / 4
+
+.pointer_card
+  display: grid
+  grid-template-columns: repeat(1, 1fr)
+  grid-column-gap: 0px
+  grid-row-gap: 0px
+  gap: 10px
+  margin-top: 50px
+
+.pointer_1
+  grid-area: 1 / 1 / 2 / 2
+.pointer_2
+  grid-area: 2 / 1 / 3 / 2
+.pointer_3
+  grid-area: 3/ 1 / 4 / 2
+.pointer_4
+  grid-area: 2 / 3 / 3 / 5
+.pointer_5
+  grid-area: 3 / 3 / 4 / 5
+
+.pointer_4
+  width: 384px
+  height: 282px
+  background: $c-dark-2
+  border-radius: 16px
+  margin-top: -195px
+.pointer_5
+  width: 384px
+  height: 282px
+  background: $c-dark-2
+  border-radius: 16px
+  margin-top: -100px
+
+.senior_card
+  display: grid
+  grid-template-columns: repeat(1, 1fr)
+  grid-column-gap: 0px
+  grid-row-gap: 0px
+  gap: 20px
+.senior_card_block_2
+  display: grid
+  grid-template-columns: repeat(1, 1fr)
+  grid-column-gap: 0px
+  grid-row-gap: 0px
+  gap: 20px
+  margin-left: 620px
+  margin-top: -780px
+
+.senior_img
+  width: 1200px
+  height: 200px
+  background: $c-dark
+  border-radius: 16px
+  margin-top: 50px
+.last_card
+  display: grid
+  grid-template-columns: repeat(1, 0fr)
+  grid-row-gap: 35px
+
+.last_2
+  display: grid
+  grid-template-columns: repeat(1, 0fr)
+  grid-row-gap: 24px
+  margin-top: -815px
+  margin-left: 380px
+.last_3
+  display: grid
+  grid-template-columns: repeat(1, 0fr)
+  grid-row-gap: 24px
+  margin-top: -825px
+  margin-left: 820px

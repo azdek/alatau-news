@@ -22,6 +22,10 @@ const Navlink = ({ route, pathname }: NavlinkProps) => (
 export default function Navigation() {
   const router = useRouter()
 
+  const navigate = (route: string) => {
+    router.push(route)
+  }
+
   return (
     <div className={classes.wrapper}>
       <Container>
@@ -41,7 +45,7 @@ export default function Navigation() {
               <SearchOutlined className={classes.icon} />
               <BellOutlined className={classes.icon} />
               <CustomerServiceOutlined className={classes.icon} />
-              <Button>Войти</Button>
+              <Button onClick={() => navigate(ROUTES.auth.href)}>Войти</Button>
             </nav>
           </Col>
         </Row>
